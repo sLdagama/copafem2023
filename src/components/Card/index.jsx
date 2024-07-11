@@ -25,7 +25,7 @@ function Card() {
                         grupo.selecoes.map( pais => {
                             return (
                                 <li key={pais.sigla}>
-                                    <img src={`/bandeiras/${pais.imagem}.svg`} alt={pais.selecao} />
+                                    <img src={`bandeiras/${pais.imagem}.svg`} alt={pais.selecao} />
                                     {pais.selecao}
                                 </li>
                             )
