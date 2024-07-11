@@ -1,5 +1,3 @@
-import styles from './TabButton.module.css'
-
 function TabButton({ tabName, activeTab, handleChangeTab }) {
     return (
         <button
